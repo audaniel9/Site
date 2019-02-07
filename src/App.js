@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import {
-    BrowserRouter as Router,
-    Route,
-    Link
-} from 'react-router-dom';
+import {Switch, BrowserRouter as Router, Route} from 'react-router-dom';
+import {TransitionGroup, CSSTransition} from 'react-transition-group';
 
 //components
 import Header from './components/header.js';
@@ -22,11 +19,23 @@ class App extends Component {
           <div className="App">
             <Header />
             <Nav />
-            <Route exact path='/' component={Aboutme} />
-            <Route exact path='/aboutme' component={Aboutme} />
-            <Route exact path='/skills' component={Skills} />
-            <Route exact path='/education' component={Education} />
-            <Route exact path='/contact' component={Contact} />
+
+            <Route render={({location}) => (
+                <TransitionGroup>
+                    <CSSTransition
+                        key={location.key}
+                        timeout={400}
+                        classNames="fade">
+                        <Switch location={location}>
+                            <Route exact path='/' component={Aboutme} />
+                            <Route exact path='/aboutme' component={Aboutme} />
+                            <Route exact path='/skills' component={Skills} />
+                            <Route exact path='/education' component={Education} />
+                            <Route exact path='/contact' component={Contact} />
+                        </Switch>
+                    </CSSTransition>
+                </TransitionGroup>
+            )} />
             <Footer />
           </div>
         </Router>
