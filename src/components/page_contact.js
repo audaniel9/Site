@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+
+class Contact extends Component {
+  render() {
+    return (
+      <div className="container">
+        <div class="jumbotron">
+            <h3>Contact</h3>
+            <p>
+                Phone: 917-365-8336 <br />
+                Email: audaniel9@gmail.com <br /><br />
+                <a href="https://github.com/audaniel9/">Github</a> &nbsp;
+                <a href="https://www.linkedin.com/in/daniel-au-45422499/">Linkedin</a>
+            </p>
+            <h3>Resume/CV</h3>
+            <p><a href="/public_assets/resume.pdf" target="_blank">PDF</a></p>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Contact;
