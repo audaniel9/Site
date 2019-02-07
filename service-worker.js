@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "audaniel9.github.io/precache-manifest.a6e3d10328c1b633a7ff14e0ab80e0bb.js"
+  "/site/precache-manifest.da07e79b30d5414145191ae8c98ea70d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("audaniel9.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/site/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

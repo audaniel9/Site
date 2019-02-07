@@ -1,14 +1,14 @@
 {
-  "main.css": "audaniel9.github.io/static/css/main.1c40e657.chunk.css",
-  "main.js": "audaniel9.github.io/static/js/main.0520f549.chunk.js",
-  "main.js.map": "audaniel9.github.io/static/js/main.0520f549.chunk.js.map",
-  "static/js/1.2acd1e42.chunk.js": "audaniel9.github.io/static/js/1.2acd1e42.chunk.js",
-  "static/js/1.2acd1e42.chunk.js.map": "audaniel9.github.io/static/js/1.2acd1e42.chunk.js.map",
-  "runtime~main.js": "audaniel9.github.io/static/js/runtime~main.b0ab4307.js",
-  "runtime~main.js.map": "audaniel9.github.io/static/js/runtime~main.b0ab4307.js.map",
-  "static/media/App.css": "audaniel9.github.io/static/media/background.644c6b5f.jpg",
-  "static/css/main.1c40e657.chunk.css.map": "audaniel9.github.io/static/css/main.1c40e657.chunk.css.map",
-  "index.html": "audaniel9.github.io/index.html",
-  "precache-manifest.a6e3d10328c1b633a7ff14e0ab80e0bb.js": "audaniel9.github.io/precache-manifest.a6e3d10328c1b633a7ff14e0ab80e0bb.js",
-  "service-worker.js": "audaniel9.github.io/service-worker.js"
+  "main.css": "/site/static/css/main.52cb1d91.chunk.css",
+  "main.js": "/site/static/js/main.9a3f0307.chunk.js",
+  "main.js.map": "/site/static/js/main.9a3f0307.chunk.js.map",
+  "static/js/1.2acd1e42.chunk.js": "/site/static/js/1.2acd1e42.chunk.js",
+  "static/js/1.2acd1e42.chunk.js.map": "/site/static/js/1.2acd1e42.chunk.js.map",
+  "runtime~main.js": "/site/static/js/runtime~main.5571d524.js",
+  "runtime~main.js.map": "/site/static/js/runtime~main.5571d524.js.map",
+  "static/media/App.css": "/site/static/media/background.644c6b5f.jpg",
+  "static/css/main.52cb1d91.chunk.css.map": "/site/static/css/main.52cb1d91.chunk.css.map",
+  "index.html": "/site/index.html",
+  "precache-manifest.da07e79b30d5414145191ae8c98ea70d.js": "/site/precache-manifest.da07e79b30d5414145191ae8c98ea70d.js",
+  "service-worker.js": "/site/service-worker.js"
 }
