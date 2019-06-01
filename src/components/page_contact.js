@@ -9,8 +9,8 @@ class Contact extends Component {
             <p class="lead">
                 Phone: 917-365-8336 <br />
                 Email: audaniel9@gmail.com <br /><br />
-                <a href="https://github.com/audaniel9/" target="_blank">Github</a> &nbsp;
-                <a href="https://www.linkedin.com/in/daniel-au-45422499/" target="_blank">Linkedin</a>
+                <a href="https://github.com/audaniel9/" target="_blank" rel="noopener noreferrer">Github</a> &nbsp;
+                <a href="https://www.linkedin.com/in/daniel-au-45422499/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             </p> <br />
             <h3>Resume/CV</h3>
             <p><a href="/website/public_assets/resume.pdf" target="_blank">PDF</a></p>
