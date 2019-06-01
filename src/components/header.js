@@ -5,7 +5,7 @@ class Header extends Component {
     return (
       <div className="Header">
         <header class="display-1">Daniel Au</header>
-        <header class="display-4">Programmer</header>
+        <header class="display-4">Software Engineer</header>
         <img class="selfpic" src={'public_assets/selfpic.jpg'} alt="selfpic"/>
       </div>
     );

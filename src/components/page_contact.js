@@ -13,7 +13,7 @@ class Contact extends Component {
                 <a href="https://www.linkedin.com/in/daniel-au-45422499/">Linkedin</a>
             </p> <br />
             <h3>Resume/CV</h3>
-            <p><a href="/public_assets/resume.pdf" target="_blank">PDF</a></p>
+            <p><a href="/website/public_assets/resume.pdf" target="_blank">PDF</a></p>
         </div>
       </div>
     );
